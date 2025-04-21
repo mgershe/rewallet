@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ReWallet - AI-Powered Credit Card Optimization</title>
+  <meta name="description" content="Maximize your credit card rewards with AI-powered recommendations">
+  <link rel="stylesheet" href="styles.css">
+  <!-- Font import -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header/Navbar -->
+  <header class="header">
+    <div class="container">
+      <div class="navbar">
+        <a href="index.html" class="logo">ReWallet</a>
+        
+        <!-- Mobile menu toggle using CSS only -->
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+        
+        <!-- Navigation -->
+        <nav class="nav">
+          <ul class="nav-list">
+            <li><a href="#" class="nav-link">Home</a></li>
+            <li><a href="#features" class="nav-link">Features</a></li>
+            <li><a href="#how-it-works" class="nav-link">How It Works</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+          <a href="#contact" class="button button-outline mobile-cta">Get Early Access</a>
+        </nav>
+        
+        <div class="desktop-cta">
+          <a href="#contact" class="button button-outline">Get Early Access</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1>Never Choose the Wrong Card Again</h1>
+            <p>ReWallet uses AI to recommend the perfect credit card for every purchase, maximizing your rewards and cashback in real-time.</p>
+            <div class="hero-buttons">
+              <a href="#contact" class="button button-primary">
+                Get Early Access
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon">
+                  <path d="M5 12h14"></path>
+                  <path d="m12 5 7 7-7 7"></path>
+                </svg>
+              </a>
+              <a href="#how-it-works" class="button button-outline">How It Works</a>
+            </div>
+          </div>
+          <div class="hero-image">
+            <div class="app-preview">
+              <img src="creditCards.png" alt="ReWallet App Preview" class="rounded-2xl">
+            </div>
+            <!-- Decorative elements -->
+            <div class="decorative-circle circle-1"></div>
+            <div class="decorative-circle circle-2"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Problem Statement -->
+    <section class="problem-section">
+      <div class="container">
+        <div class="section-header">
+          <h2>The Problem We're Solving</h2>
+          <p>The average American owns four credit cards, each with different rewards and perks. Yet most people struggle to remember which card offers the best benefits for each purchase, leaving money on the table every time they pay.</p>
+          <div class="quote-box">
+            <p>Studies show that the average American owns four credit cards (Experian, 2022), yet many fail to optimize their usage. Even though each card offers different rewards/perks, most are clueless when trying to remember which one does which, even though they own these cards due to the benefits they offer.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Solution -->
+    <section class="solution-section" id="features">
+      <div class="container">
+        <div class="section-header">
+          <h2>Our Solution</h2>
+          <p>ReWallet is the first digital wallet to proactively guide users towards optimal card use before a purchase is made, using AI to maximize your rewards and savings.</p>
+        </div>
+
+        <div class="app-mockups">
+          <div class="mockup mockup-1">
+            <div class="mockup-content">
+              <div class="mockup-header"></div>
+              <div class="mockup-body">
+                <div class="card-recommendation">
+                  <h3>Card Recommendation</h3>
+                  <div class="card-info">
+                    <div class="card-icon">CC</div>
+                    <div class="card-details">
+                      <p class="card-name">Chase Sapphire</p>
+                      <p class="card-benefit">3% Cashback at Restaurants</p>
+                    </div>
+                  </div>
+                  <div class="best-choice">Best choice for this location!</div>
+                </div>
+                <div class="placeholder-lines">
+                  <div class="line line-full"></div>
+                  <div class="line line-partial"></div>
+                  <div class="line line-medium"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="mockup mockup-2">
+            <div class="mockup-content">
+              <div class="mockup-header"></div>
+              <div class="mockup-body">
+                <div class="location-detected">
+                  <h3>Starbucks Detected</h3>
+                  <p>We've detected you're at Starbucks</p>
+                  <div class="recommendation-box">
+                    <div class="recommendation-row">
+                      <span>Recommended Card:</span>
+                      <span class="bold">Amex Gold</span>
+                    </div>
+                    <div class="recommendation-row">
+                      <span>Rewards:</span>
+                      <span class="bold">4x Points</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="action-buttons">
+                  <button class="secondary-button">Other Cards</button>
+                  <button class="primary-button">Use This Card</button>
+                </div>
+                <div class="placeholder-lines">
+                  <div class="line line-full"></div>
+                  <div class="line line-partial"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="mockup mockup-3">
+            <div class="mockup-content">
+              <div class="mockup-header"></div>
+              <div class="mockup-body">
+                <div class="rewards-summary">
+                  <h3>Rewards Summary</h3>
+                  <div class="rewards-item">
+                    <div class="rewards-row">
+                      <span>This Month:</span>
+                      <span class="bold">$42.18</span>
+                    </div>
+                    <div class="progress-bar">
+                      <div class="progress-fill green" style="width: 65%"></div>
+                    </div>
+                  </div>
+                  <div class="rewards-item">
+                    <div class="rewards-row">
+                      <span>Total Saved:</span>
+                      <span class="bold">$328.45</span>
+                    </div>
+                    <div class="progress-bar">
+                      <div class="progress-fill purple" style="width: 80%"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="placeholder-lines">
+                  <div class="line line-full"></div>
+                  <div class="line line-medium"></div>
+                  <div class="line line-partial"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"></path>
+              </svg>
+            </div>
+            <h3>Real-Time Recommendations</h3>
+            <p>Get instant suggestions on which card to use based on your location and purchase type.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect width="20" height="14" x="2" y="5" rx="2"></rect>
+                <line x1="2" x2="22" y1="10" y2="10"></line>
+              </svg>
+            </div>
+            <h3>All Cards in One Place</h3>
+            <p>Securely store and manage all your credit cards in a single, easy-to-use app.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M2 12a10 10 0 1 1 20 0 10 10 0 0 1-20 0Z"></path>
+                <path d="M12 2v20"></path>
+                <path d="M12 12 2.73 4.73"></path>
+                <path d="M12 12 6.13 18.13"></path>
+              </svg>
+            </div>
+            <h3>Reward Tracking</h3>
+            <p>See how much you've saved and earned through optimized card usage.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="how-it-works" id="how-it-works">
+      <div class="container">
+        <div class="section-header">
+          <h2>How ReWallet Works</h2>
+          <p>Our AI-powered app makes it simple to maximize your credit card rewards with just a few taps.</p>
+        </div>
+
+        <div class="steps-grid">
+          <div class="step-card">
+            <div class="step-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect width="20" height="14" x="2" y="5" rx="2"></rect>
+                <line x1="2" x2="22" y1="10" y2="10"></line>
+              </svg>
+            </div>
+            <h3>1. Add Your Cards</h3>
+            <p>Securely add all your credit cards to ReWallet with our easy setup process.</p>
+          </div>
+          <div class="step-card">
+            <div class="step-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+            </div>
+            <h3>2. Shop Normally</h3>
+            <p>Go about your day as usual. ReWallet works in the background to track your location.</p>
+          </div>
+          <div class="step-card">
+            <div class="step-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect width="14" height="20" x="5" y="2" rx="2" ry="2"></rect>
+                <path d="M12 18h.01"></path>
+              </svg>
+            </div>
+            <h3>3. Get Recommendations</h3>
+            <p>Receive real-time notifications about which card to use for maximum rewards.</p>
+          </div>
+          <div class="step-card">
+            <div class="step-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20 6 9 17l-5-5"></path>
+              </svg>
+            </div>
+            <h3>4. Save Money</h3>
+            <p>Watch your rewards grow as you make optimized purchasing decisions.</p>
+          </div>
+        </div>
+
+        <div class="ai-section">
+          <div class="ai-content">
+            <div class="ai-text full-width">
+              <h3>AI-Powered Recommendations</h3>
+              <p>Our machine learning algorithm analyzes multiple factors to recommend the best card:</p>
+              <ul class="check-list">
+                <li>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M20 6 9 17l-5-5"></path>
+                  </svg>
+                  <span>Merchant category and location data</span>
+                </li>
+                <li>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M20 6 9 17l-5-5"></path>
+                  </svg>
+                  <span>Current card promotions and special offers</span>
+                </li>
+                <li>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M20 6 9 17l-5-5"></path>
+                  </svg>
+                  <span>Your spending patterns and preferences</span>
+                </li>
+                <li>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M20 6 9 17l-5-5"></path>
+                  </svg>
+                  <span>Reward point values and redemption options</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Market Stats -->
+    <section class="market-stats">
+      <div class="container">
+        <div class="section-header">
+          <h2>Market Opportunity</h2>
+          <p>ReWallet addresses a significant gap in the mobile wallet market, with strong growth potential.</p>
+        </div>
+
+        <div class="stats-grid">
+          <div class="stat-card">
+            <div class="stat-header">
+              <div class="stat-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect width="20" height="14" x="2" y="5" rx="2"></rect>
+                  <line x1="2" x2="22" y1="10" y2="10"></line>
+                </svg>
+              </div>
+              <div>
+                <h3>166M+</h3>
+                <p>Credit Card Users in the US</p>
+              </div>
+            </div>
+            <p>Over 166 million Americans use credit cards regularly, with the average person owning 4 cards.</p>
+          </div>
+          <div class="stat-card">
+            <div class="stat-header">
+              <div class="stat-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="9" cy="7" r="4"></circle>
+                  <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                </svg>
+              </div>
+              <div>
+                <h3>45.5%</h3>
+                <p>Use Three or More Cards</p>
+              </div>
+            </div>
+            <p>According to Federal Reserve Bank of Atlanta (2024), 45.5% of credit card holders use three or more cards regularly.</p>
+          </div>
+          <div class="stat-card">
+            <div class="stat-header">
+              <div class="stat-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="m23 6-9.5 9.5-5-5L1 18"></path>
+                  <path d="M17 6h6v6"></path>
+                </svg>
+              </div>
+              <div>
+                <h3>$701B</h3>
+                <p>Mobile Wallet Market by 2033</p>
+              </div>
+            </div>
+            <p>The mobile wallet market is projected to reach $701 billion by 2033 according to IMARC Group (2024).</p>
+          </div>
+          <div class="stat-card">
+            <div class="stat-header">
+              <div class="stat-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M10.2 11.3C9.5 10.8 9.2 10 9.3 9.2c.1-.8.6-1.4 1.3-1.8"></path>
+                  <path d="M13.9 7.4c.5.2.9.5 1.2.9l1 1.5"></path>
+                  <path d="M14.5 16.4c-.9.8-2.2 1-3.3.5l-1.5-.7c-1.1-.5-1.9-1.6-1.9-2.8v-4"></path>
+                  <path d="M13.9 18.5V22"></path>
+                  <path d="M10.1 18.5V22"></path>
+                  <path d="M13.9 7.4V4"></path>
+                  <path d="M10.1 4v3.4"></path>
+                  <path d="M16 2H8"></path>
+                </svg>
+              </div>
+              <div>
+                <h3>27%</h3>
+                <p>Annual Market Growth</p>
+              </div>
+            </div>
+            <p>The mobile payment market is projected to grow at a CAGR of 27% through 2030 (Fortune Business Insights, 2025).</p>
+          </div>
+        </div>
+
+        <div class="competitive-landscape">
+          <h3>Competitive Landscape</h3>
+          <div class="table-container">
+            <table>
+              <thead>
+                <tr>
+                  <th>Competitor</th>
+                  <th>Strengths</th>
+                  <th>Limitations</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Apple Pay</td>
+                  <td>Well integrated in Apple products, easy to use and set up</td>
+                  <td>Provides little to no insight on rewards</td>
+                </tr>
+                <tr>
+                  <td>Google Pay</td>
+                  <td>Similar to Apple, but focused on Google and Android products</td>
+                  <td>Provides little to no insights on rewards</td>
+                </tr>
+                <tr>
+                  <td>MaxRewards</td>
+                  <td>Provides feedback and management of customers credit cards</td>
+                  <td>Gives analysis post-spend rather than at time of transaction</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Business Plan & CTA -->
+    <section class="cta-section">
+      <div class="container">
+        <div class="cta-content">
+          <h2>Ready to Learn More?</h2>
+          <p>Download our detailed business plan or sign up for early access to ReWallet.</p>
+          <div class="cta-buttons">
+            <a href="business-plan.pdf" class="button button-light">Download Business Plan</a>
+            <a href="#contact" class="button button-outline-light">
+              Get Early Access
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon">
+                <path d="M5 12h14"></path>
+                <path d="m12 5 7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <h3>ReWallet</h3>
+          <p>Maximize your credit card rewards with AI</p>
+        </div>
+        <div class="footer-links">
+          <div class="footer-links-column">
+            <h4>Links</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#features">Features</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-links-column">
+            <h4>Legal</h4>
+            <ul>
+              <li><a href="privacy.html">Privacy Policy</a></li>
+              <li><a href="terms.html">Terms of Service</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="current-year">2023</span> ReWallet. All rights reserved.</p>
+        <p class="references-link">
+          <a href="references.html">References</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Simple script to update the year in the footer
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
